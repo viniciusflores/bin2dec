@@ -1,6 +1,6 @@
 # Bin2Dec
 
-Check the [demo here](#)
+Check the [demo here](https://viniciusflores.github.io/bin2dec/)
 
 App made for the challenge [App Ideas](https://github.com/florinpop17/app-ideas)
 

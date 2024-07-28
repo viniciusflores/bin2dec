@@ -19,7 +19,7 @@
   text-align: center;
   font-size: 1rem;
   line-height: 1.5rem;
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.92)), url(/public/bg.jpg) no-repeat center fixed;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.92)), url(public/bg.jpg) no-repeat center fixed;
   color: #fff;
 }
 
