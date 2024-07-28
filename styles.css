@@ -1,34 +1,63 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
 
-#container {
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.92)), url(/public/bg.jpg) no-repeat center fixed;
+  color: #fff;
 }
 
-#app{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#app div:nth-child(1) {
+  display: flex;
+}
+
+.opaque {
+  font-size: 3rem;
+  opacity: 0.05;
+  line-height: 4.5rem;
 }
 
 h1 {
-  font-weight: 950;
-  font-size: 5rem;
+  font-size: 3rem;
+  line-height: 4.5rem;
+  font-weight: bold;
 }
 
-input {
+p {
+  margin: 1.5rem 0;
+}
+
+.input {
   width: 100%;
-  font-size: 1rem;
-  line-height: 1.5rem;
+}
+
+#input {
+  max-width: 80%;
+  padding: 0.75rem 1rem;
+  font-size: 2rem;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
 }
 
 #result {
-  margin-top: 0.75rem;
-
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 32px 0;
 }
